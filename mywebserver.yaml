@@ -18,8 +18,8 @@
           name: "{{mywebserverpackonredhat}}"
           state: present
     when: ansible_os_family=="RedHat"
-  - name: i want to start webserver
+  - name: i want to start red webserver
     service:
-          name: :"{{mywebserverpackonredhat}}"
+          name: "{{mywebserverpackonredhat}}"
           state: started
     when: ansible_os_family=="RedHat"
