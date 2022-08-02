@@ -1,7 +1,6 @@
+[applicationserver]
+172.31.21.211
+
 [mywebservers]
 172.31.16.13
 172.31.26.89
-
-
-[applicationserver]
-172.31.21.211
